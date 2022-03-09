@@ -12,8 +12,8 @@ int main()
 {
     float e_inch s_milimetro;
     scanf("&f",& e_inch);
-    s_milimetro=25,4*e_inch;
-    printf("%f\n",s_milimetro);
+    s_milimetro=25,4* e_inch;
+    printf("%f\n", s_milimetro);
     
     
        return 0;
