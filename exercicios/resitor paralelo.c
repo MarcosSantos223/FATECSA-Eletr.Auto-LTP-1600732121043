@@ -12,7 +12,7 @@ int main()
     scanf("%f",&e_r3);
     printf ("entre com o resistor 4:");
     scanf("%f",&e_r4);
-    s_sp=e_r1,+1/e_r2,+1/e_r3,+1/e_r4;
+    s_sp=1/e_r1+1/e_r2+1/e_r3+1/e_r4;
     s_req=1/s_sp;
     printf("resistor equivalente %f\n", s_req);
     
